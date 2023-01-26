@@ -1,0 +1,154 @@
+.br1{
+    font-size: 7;
+    margin-top: 2%;
+    margin-left:  2%;
+    margin-right: 2%;
+}
+
+.buttom{
+  text-align: right;
+}
+
+.hd{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid black;
+}
+
+img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+.flex {
+    display: flex; /*横並び*/
+    height: 400px;
+    border-bottom: solid black;
+    margin-left:  2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .flex .image {
+    width: 500px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flex .right {
+    margin: 0 0 0 0px;
+    padding: 0;
+  }
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .flex .text {
+    margin: 10px 0 20;
+    padding: 30;
+    padding-right:  160px;
+  }
+
+  .flex .maru1 {
+    float: left;
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    background: orange;
+    text-align:center;
+    line-height: 180px;
+    margin-top: 5px;
+   }
+
+   .flex .maru2 {
+    float: left;
+    margin-left: 10px;
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    background: red;
+    text-align:center;
+    line-height: 180px;
+    margin-top: 5px;
+   }
+
+   .flex .maru3 {
+    float: left;
+    margin-left: 10px;
+    height:180px;
+    width:180px;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    background: skyblue;
+    text-align:center;
+    line-height: 180px;
+    margin-top: 5px;
+   }
+
+   .flex2{
+    display: flex;
+    margin-left:  2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .between{
+    justify-content: space-between;
+  }
+
+  .sns{
+    padding-right: 100px;
+  }
+
+  .insta_btn2{/*ボタンの下地*/
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    position: relative;
+    display: inline-block;
+    height: 20px;/*高さ*/
+    width: 150px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 17px;/*文字のサイズ*/
+    line-height: 20px;/*高さと合わせる*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+  }
+  
+  .insta_btn2:before{/*グラデーション②*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;/*全体を覆う*/
+    height: 100%;/*全体を覆う*/
+    background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  }
+  
+  .insta_btn2 .fa-instagram{/*アイコン*/
+    font-size: 35px;/*アイコンサイズ*/
+    position: relative;
+    top: 4px;/*アイコン位置の微調整*/
+  }
+  
+  .insta_btn2 span {/*テキスト*/
+    display:inline-block;
+    position: relative;
+    transition: .5s
+  }
+  
+  .insta_btn2:hover span{/*ホバーで一周回転*/
+    -webkit-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+  
